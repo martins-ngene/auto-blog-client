@@ -1,11 +1,12 @@
 import React from "react";
 
-import styles from "./styles.module.css";
 import ContactForm from "@/components/contact_form";
+import Seo from "@/components/seo";
 
 const Contact = () => {
   return (
     <>
+      <Seo title='Contact' />
       <ContactForm />
     </>
   );

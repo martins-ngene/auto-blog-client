@@ -9,25 +9,29 @@ import styles from "./styles.module.css";
 import Banner from "@/components/banner";
 import { ScrollToTopBtn } from "@/components/buttons";
 import { scrollPageToTop } from "@/components/utils";
+import Seo from "@/components/seo";
 
 // Design a Banner Components
 const components = { Banner };
 
 export default function Article({ source, article }) {
   return (
-    <div className={styles.container}>
-      <div className={styles.content}>
-        <Banner
-          src={article.url}
-          title={article.title}
-          date={moment(article.createdAt).format("LLL")}
-        />
-        <MDXRemote {...source} components={components} />
-        <div className={styles.scrollToTop_btn_container}>
-          <ScrollToTopBtn onClick={scrollPageToTop} />
+    <>
+      <Seo title={article.title} />
+      <div className={styles.container}>
+        <div className={styles.content}>
+          <Banner
+            src={article.url}
+            title={article.title}
+            date={moment(article.createdAt).format("LLL")}
+          />
+          <MDXRemote {...source} components={components} />
+          <div className={styles.scrollToTop_btn_container}>
+            <ScrollToTopBtn onClick={scrollPageToTop} />
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

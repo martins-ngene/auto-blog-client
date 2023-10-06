@@ -1,14 +1,16 @@
 import HomePage from "@/components/home";
 import LatestArticles from "@/components/latest_articles";
 import NewsLetterForm from "@/components/newsletter_form";
+import Seo from "@/components/seo";
 
 export default function Home({ articles }) {
   return (
-    <div>
+    <>
+      <Seo title='Home' />
       <HomePage />
       <LatestArticles articles={articles} />
       <NewsLetterForm />
-    </div>
+    </>
   );
 }
 

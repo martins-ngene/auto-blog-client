@@ -1,13 +1,11 @@
-/** @format */
-
 import Head from "next/head";
-import React, { useEffect } from "react";
+import React from "react";
 
 const Seo = ({ title }) => {
   return (
     <Head>
       <title>{title}</title>
-      <meta name='description' content='Personal website' />
+      <meta name='description' content='Auto Blog AI' />
       <link rel='icon' href='/favicon.ico' />
     </Head>
   );

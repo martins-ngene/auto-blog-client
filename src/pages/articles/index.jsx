@@ -6,6 +6,7 @@ import styles from "./styles.module.css";
 import { Button } from "@/components/buttons";
 import Input from "@/components/custom_input";
 import { searchForAnArticle } from "@/components/utils";
+import Seo from "@/components/seo";
 
 export default function Articles({ articles }) {
   // useState Hook to manage the state of the search input field
@@ -13,6 +14,7 @@ export default function Articles({ articles }) {
 
   return (
     <>
+      <Seo title='Articles' />
       <div className={styles.container}>
         {/* Header */}
         <div className={styles.header_container}>
