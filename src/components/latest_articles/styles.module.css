@@ -1,0 +1,18 @@
+/* Styles for the container goes here */
+.container {
+  @apply bg-white w-full h-full md:h-[100vh] px-4 md:px-0 pb-0 pt-[7rem] flex flex-col items-center justify-start;
+}
+
+.card_container {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3;
+}
+
+/* Cards */
+.card_container > div {
+  @apply mb-8 mx-0 md:mx-4;
+}
+
+/* Header */
+.header {
+  @apply mx-0 md:mx-4 mb-8 font-semibold leading-8 text-[2rem];
+}

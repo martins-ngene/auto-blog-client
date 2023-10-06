@@ -1,0 +1,31 @@
+/* H Styles */
+.h1 {
+  @apply hidden;
+}
+
+.h2 {
+  @apply font-bold text-[2rem];
+}
+
+.h3 {
+  @apply font-bold text-[2rem];
+}
+
+.h4 {
+  @apply font-bold text-[2rem];
+}
+
+/* P Styles */
+.p {
+  @apply text-[1rem] my-2;
+}
+
+/* Pre Styles */
+.pre {
+  @apply text-[12px] md:text-[1rem] m-2 !break-all p-4 bg-[#edf2f4] rounded-[5px] whitespace-normal;
+}
+
+/* Pre Styles */
+.code {
+  @apply text-[12px] md:text-[1rem] m-2 !break-all p-2 bg-[#edf2f4] rounded-[5px];
+}

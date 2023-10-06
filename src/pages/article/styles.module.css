@@ -1,0 +1,14 @@
+/* Container Styles */
+.container {
+  @apply pt-[5rem] pb-[10rem];
+}
+
+/* Styles for page content */
+.content {
+  @apply w-[80%] mx-auto;
+}
+
+/* Scroll To TOp Btn Styles */
+.scrollToTop_btn_container {
+  @apply fixed right-[10%] bottom-[10%];
+}

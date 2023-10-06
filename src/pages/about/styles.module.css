@@ -1,0 +1,17 @@
+/* Styles for the container goes here */
+.container {
+  @apply bg-transparent w-full h-[100vh] flex flex-col items-center py-[10rem];
+}
+
+/* Welcome Text */
+.welcomeText {
+  @apply flex flex-col items-center justify-center;
+}
+
+.header {
+  @apply font-bold text-[48px] leading-[48px] text-center;
+}
+
+.text {
+  @apply text-[24px] leading-6 w-[85%] md:w-[60%] text-center mt-3;
+}

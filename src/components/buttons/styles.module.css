@@ -1,0 +1,33 @@
+/* Styles for button goes here */
+.filled,
+.outlined {
+  @apply w-[120px] md:w-[160px] h-[40px] md:h-[48px] rounded-[0.5rem] border text-center font-medium leading-6;
+}
+
+.filled {
+  @apply text-black bg-white border-black;
+}
+
+.outlined {
+  @apply text-white bg-black border-white;
+}
+
+.full {
+  @apply w-full h-[48px] rounded-[0.5rem] border text-center font-medium leading-6 text-white bg-black;
+}
+
+/* Profile Button Styles */
+.profile_btn {
+  @apply flex items-center justify-between w-[90px] h-[50px];
+}
+.profile_image_container {
+  @apply relative w-[50px] h-[50px] rounded-full mt-6 -translate-y-3;
+}
+
+.profile_icon {
+  @apply text-white text-[2rem];
+}
+
+.scrollToTop {
+  @apply flex items-center justify-center text-[2rem] font-bold w-[50px] h-[50px] border-[3px] border-black;
+}

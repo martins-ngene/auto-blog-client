@@ -1,0 +1,35 @@
+/* Container Styles */
+.container {
+  @apply w-full md:w-[800px] h-[90vh]  md:h-[90vh] px-4 md:px-0 pb-[5rem] pt-[7rem] mx-auto;
+}
+
+/* Header */
+.header {
+  @apply mx-0 mb-8 font-semibold leading-8 text-[2rem];
+}
+
+/* Welcome Text */
+.welcome_text {
+  @apply my-4 text-[0.8rem] md:text-[1.375rem] text-black;
+}
+
+/* Label */
+.label {
+  @apply text-black mb-[0.625rem] font-[600] text-[1rem] leading-[120%];
+}
+
+/* Input */
+.input {
+  @apply mb-4 lg:text-[1rem] outline-none w-full border border-[#E1E1E1] rounded-lg h-[15px] px-5 py-5;
+}
+
+/* Name Container */
+.name_container {
+  @apply flex flex-col lg:flex-row items-center justify-between;
+}
+
+/* First & Last Names Styles */
+.first_name,
+.last_name {
+  @apply w-full lg:w-[45%];
+}

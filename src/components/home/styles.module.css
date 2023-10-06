@@ -1,0 +1,20 @@
+/* Styles for the container goes here */
+.container {
+  @apply bg-transparent w-full h-[100vh] flex flex-col items-center justify-center;
+  background-image: url("/images/home.jpg");
+  background-size: 100% 100vh;
+  background-position: center center;
+}
+
+/* Welcome Text */
+.welcomeText {
+  @apply text-white flex flex-col items-center justify-center;
+}
+
+.header {
+  @apply font-bold text-[48px] leading-[48px] text-center;
+}
+
+.text {
+  @apply text-[24px] leading-6 w-[60%] text-center mt-3;
+}

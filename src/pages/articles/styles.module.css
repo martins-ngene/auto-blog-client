@@ -1,0 +1,31 @@
+/* Styles for the container goes here */
+.container {
+  @apply bg-white w-full h-full px-4 md:px-0 pt-[7rem] pb-[7rem] flex flex-col items-center;
+}
+
+.card_container {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3;
+}
+
+/* Cards */
+.card_container > div {
+  @apply mb-8 mx-0 md:mx-4;
+}
+
+/* Header */
+.header {
+  @apply mx-0 md:mx-4 mb-8 font-semibold leading-8 text-[2rem];
+}
+
+.header_container {
+  @apply w-full md:w-[74%];
+}
+
+/* Pagination Styles */
+.button_container {
+  @apply w-[250px] md:w-[332px] my-4 flex items-center justify-between;
+}
+
+.search_container {
+  @apply w-full md:w-[72%] mb-8;
+}
