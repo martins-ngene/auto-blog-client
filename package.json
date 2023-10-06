@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "auto-blog-client",
   "version": "0.1.0",
   "private": true,
   "scripts": {
