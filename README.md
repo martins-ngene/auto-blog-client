@@ -18,6 +18,8 @@ yarn install
 pnpm install
 ```
 
+Don't forget to ignore your env.local file. Rename it to .env.local
+
 Then, run the development server:
 
 ```bash
