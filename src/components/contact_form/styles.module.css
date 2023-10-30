@@ -20,7 +20,7 @@
 
 /* Input */
 .input {
-  @apply mb-2 md:mb-4 lg:text-[1rem] outline-none w-full border border-[#E1E1E1] rounded-lg h-[15px] px-5 py-5;
+  @apply bg-[#F7F7F7] mb-2 md:mb-4 lg:text-[1rem] outline-none w-full border border-[#E1E1E1] rounded-lg h-[15px] px-5 py-5;
 }
 
 /* Name Container */
