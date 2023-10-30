@@ -2,7 +2,7 @@
 
 /* Card Container */
 .container {
-  @apply w-[320px] h-[400px] flex flex-col items-center justify-between bg-white pt-[0.75rem] pb-[1.5rem] px-[0.5rem]  border border-[rgba(0,0,0,0.15)] rounded-[1rem];
+  @apply w-[320px] h-[400px] flex flex-col items-center justify-between bg-white pt-[0.75rem] pb-[1.5rem] px-[0.5rem] border border-[rgba(0,0,0,0.15)] rounded-[1rem];
 }
 
 .container:hover {
@@ -15,7 +15,7 @@
 
 /* Card Image Container */
 .image_container {
-  @apply w-full h-[240px] relative;
+  @apply w-full h-[200px] md:h-[240px] relative;
 }
 
 /* Name */
@@ -23,18 +23,19 @@
   @apply text-black text-[1rem] lg:text-[1.25rem] font-bold  mt-2 px-2 line-clamp-2;
 }
 
+/* Card Description Container */
+.cardDescriptionContainer {
+  @apply text-[0.75rem] md:text-[1rem] text-black mt-1 px-2;
+}
+
+/* Description Styles */
 .description {
   @apply line-clamp-3;
 }
 
-/* Card Description Container */
-.cardDescriptionContainer {
-  @apply text-[0.5rem] text-black lg:text-[1rem] mt-1 lg:mt-0 px-2;
-}
-
 /* Card Link Container */
 .cardLinkContainer {
-  @apply w-full mt-4 flex items-center justify-between px-2;
+  @apply text-[0.75rem] md:text-[1rem] w-full mt-2 md:mt-4 px-2 flex items-center justify-between;
 }
 
 .routePathBtn {
