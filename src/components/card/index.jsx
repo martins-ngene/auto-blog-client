@@ -10,6 +10,7 @@ const Card = ({ src, title, description, date, routePath, className }) => {
       <div className={styles.image_container}>
         <Image
           src={src}
+          className='rounded-[1rem]'
           alt='Article Banner Image'
           fill='fill'
           sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
@@ -19,14 +20,14 @@ const Card = ({ src, title, description, date, routePath, className }) => {
       <div>
         <div className={styles.title}>{title}</div>
         <div className={styles.cardDescriptionContainer}>
-          <p>{description}</p>
+          <p className={styles.description}>{description}</p>
         </div>
       </div>
       <div className={styles.cardLinkContainer}>
-        <p className={styles.date}>{date}</p>
         <Link href={routePath} passHref>
           <span className={styles.routePathBtn}>Read more</span>
         </Link>
+        <p className={styles.date}>{date}</p>
       </div>
     </div>
   );

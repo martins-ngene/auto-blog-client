@@ -40,7 +40,7 @@ export default function Articles({ articles }) {
                   title={article.title}
                   description={article.description}
                   src={article.url}
-                  date={moment(article.createdAt).format("LLL")}
+                  date={moment(article.createdAt).format("lll")}
                   routePath={{
                     pathname: "/article/[slug]",
                     query: { slug: article.post_id },
