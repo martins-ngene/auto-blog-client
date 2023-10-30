@@ -38,6 +38,7 @@ export default function Articles({ articles }) {
                 <Card
                   key={article.post_id}
                   title={article.title}
+                  alt={article.title}
                   description={article.description}
                   src={article.url}
                   date={moment(article.createdAt).format("lll")}

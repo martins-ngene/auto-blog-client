@@ -4,14 +4,14 @@ import { Button } from "../buttons";
 import styles from "./styles.module.css";
 import Link from "next/link";
 
-const Card = ({ src, title, description, date, routePath, className }) => {
+const Card = ({ src, title, description, alt, date, routePath, className }) => {
   return (
     <div className={`${styles.container} ${className}`}>
       <div className={styles.image_container}>
         <Image
           src={src}
           className='rounded-[1rem]'
-          alt='Article Banner Image'
+          alt={`${alt} Banner Image`}
           fill='fill'
           sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
           priority
