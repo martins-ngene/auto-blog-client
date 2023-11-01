@@ -1,5 +1,6 @@
 import React from "react";
 import moment from "moment";
+import Image from "next/image";
 
 import styles from "./styles.module.css";
 import Card from "@/components/card";
@@ -10,6 +11,16 @@ export default function LatestArticles({ articles }) {
   const latestArticles = getLatestArticles(articles);
   return (
     <div className={styles.container}>
+      {/* Background Image */}
+      <div className={styles.position_image}>
+        <div className={styles.image_container}>
+          <Image
+            src='/images/latest_bg.svg'
+            fill='fill'
+            alt='Home Page Background Image'
+          />
+        </div>
+      </div>
       {/* Header */}
       <div>
         <div className={styles.header}>Latest</div>

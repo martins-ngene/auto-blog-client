@@ -28,7 +28,7 @@ const NavBar = () => {
           );
         })}
       </ul>
-      <Link href='/articles' passHref>
+      {/* <Link href='/articles' passHref>
         <div className={styles.article_btn_container}>
           <Image
             src='/article_btn.svg'
@@ -38,7 +38,7 @@ const NavBar = () => {
             priority
           />
         </div>
-      </Link>
+      </Link> */}
       {/* Open Menu Button */}
       <div className='block md:hidden'>
         <button
