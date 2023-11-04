@@ -12,7 +12,7 @@ export default function LatestArticles({ articles }) {
   return (
     <div className={styles.container}>
       {/* Background Image */}
-      <div className={styles.position_image}>
+      {/* <div className={styles.position_image}>
         <div className={styles.image_container}>
           <Image
             src='/images/latest_bg.svg'
@@ -20,7 +20,7 @@ export default function LatestArticles({ articles }) {
             alt='Home Page Background Image'
           />
         </div>
-      </div>
+      </div> */}
       {/* Header */}
       <div>
         <div className={styles.header}>Latest</div>

@@ -17,10 +17,13 @@ const HomePage = () => {
       </div>
       {/* Welcome Text */}
       <div className={styles.welcomeText}>
-        <h1 className={styles.header}>Welcome to the Future of Landings</h1>
+        <h1 className={styles.header}>
+          AutoBlog, Your Start To Cruising The Digital Highway
+        </h1>
         <p className={styles.text}>
-          Create screens right in your Figma. Connect different blocks and
-          create awesome landings. Yes, it just takes a few minutes!
+          Step into the captivating realm of software development with us, where
+          we navigate the digital frontier together, leading you with impactful
+          learning and insights.
         </p>
       </div>
     </div>
