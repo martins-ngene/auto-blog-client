@@ -13,7 +13,7 @@ const NavBar = () => {
     <nav className={styles.container}>
       {/* Logo */}
       <div className={styles.logo_container}>
-        <Link href='/'>AB AI</Link>
+        <Link href='/'>Auto Blog AI</Link>
       </div>
       {/* Nav Links Container */}
       <ul className={styles.nav_links_container}>

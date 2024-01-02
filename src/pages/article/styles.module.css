@@ -10,5 +10,5 @@
 
 /* Scroll To TOp Btn Styles */
 .scrollToTop_btn_container {
-  @apply fixed right-[10%] bottom-[10%];
+  @apply fixed right-[10%] bottom-[12%];
 }
