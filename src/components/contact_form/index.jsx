@@ -44,8 +44,8 @@ const ContactForm = () => {
         <div className={styles.header}>Get in touch</div>
         <div>
           <p className={styles.welcome_text}>
-            Looking to integrate <strong>Autoblog</strong> in your product to
-            automate usage guides and documentation or just to have a casual
+            Looking to integrate <strong>Auto Blog AI</strong> in your product
+            to automate usage guides and documentation or just to have a casual
             meeting? Fill out the form below so we can get started!
           </p>
           <div className={styles.name_container}>

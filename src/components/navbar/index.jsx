@@ -5,16 +5,15 @@ import { BiMenu } from "react-icons/bi";
 import { Links } from "../constants/NavBar.Schema";
 import Menu from "../menu";
 import styles from "./styles.module.css";
-import Image from "next/image";
 
 const NavBar = () => {
   const [menuState, setMenuState] = useState(false);
 
   return (
-    <div className={styles.container}>
+    <nav className={styles.container}>
       {/* Logo */}
       <div className={styles.logo_container}>
-        <Link href='/'>AutoBlog</Link>
+        <Link href='/'>Auto Blog AI</Link>
       </div>
       {/* Nav Links Container */}
       <ul className={styles.nav_links_container}>
@@ -28,17 +27,7 @@ const NavBar = () => {
           );
         })}
       </ul>
-      <Link href='/articles' passHref>
-        <div className={styles.article_btn_container}>
-          <Image
-            src='/article_btn.svg'
-            alt='Search Articles Icon'
-            fill='fill'
-            sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
-            priority
-          />
-        </div>
-      </Link>
+
       {/* Open Menu Button */}
       <div className='block md:hidden'>
         <button
@@ -49,7 +38,7 @@ const NavBar = () => {
       </div>
       {/* Menu */}
       {menuState && <Menu ctrlMenu={() => setMenuState(false)} />}
-    </div>
+    </nav>
   );
 };
 

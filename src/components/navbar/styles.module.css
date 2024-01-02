@@ -1,6 +1,6 @@
 /* Styles for container */
 .container {
-  @apply w-full h-[80px] z-50 fixed top-0 left-0 right-0 py-2 lg:py-0 pr-8 md:pr-0 pl-8 flex flex-row items-center justify-between;
+  @apply w-full h-[60px] z-50 fixed top-0 left-0 right-0 py-2 lg:py-4 px-4 md:px-8 flex flex-row items-center justify-between;
   background: linear-gradient(
     109.46deg,
     rgba(200, 200, 200, 0.1) 1.57%,
@@ -16,7 +16,7 @@
 
 /* Styles for Nav Links Container */
 .nav_links_container {
-  @apply w-[45%] items-center justify-between hidden md:flex;
+  @apply w-[50%] md:w-[70%] items-center justify-between hidden md:flex;
 }
 
 /* Article Button Styles */
